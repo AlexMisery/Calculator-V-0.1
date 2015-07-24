@@ -1,0 +1,20 @@
+while True:
+    a = int(input("Input first number: "))
+    b = int(input("Input second number: "))
+    exp = str(input("Expression: "))
+    if exp == "+":
+        c = a + b
+        print (a,"+",b,"=",c)
+    elif exp == "-":
+        c = a - b
+        print (a,"-",b,"=",c)
+    elif exp == "*":
+        c = a * b
+        print (a,"*",b,"=",c)
+    elif exp == "/":
+        c = a / b
+        print (a,"/",b,"=",c)
+    else:
+        print("Error! Try again!")
+        continue
+    continue
